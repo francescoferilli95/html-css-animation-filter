@@ -38,3 +38,27 @@
 .ex-4-square:hover {
     opacity: 0;
 }
+
+/*ESERCIZIO 5*/
+
+.ex-5-square {
+    transition: transform .8s;
+}
+
+.ex-5-square:hover {
+    transform:scale(1.7);
+}
+
+.ex-5-square:active {
+    transform:scale(.3);
+}
+
+/*ESERCIZIO 6*/
+
+.ex-6-img {
+    transition: filter .3s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
