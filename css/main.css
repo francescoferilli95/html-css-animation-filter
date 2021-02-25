@@ -79,6 +79,35 @@
 
 .ex-8-img:hover {
     filter: sepia(.8)
-            brightness(.8);
+            brightness(1.1);
     border-radius: 30px;        
+}
+
+/*ESERCIZIO 9*/
+
+.ex-9-img {
+    transition: filter 1.5s,
+                transform 1.5s;
+}
+
+.ex-9-img:hover {
+    filter: sepia(.8)
+            brightness(1.1);
+    border-radius: 30px;
+    transform:scale(1.5);
+}
+
+/*ESERCIZIO 10*/
+
+.ex-10-icon {
+    animation: spin .8s reverse linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
