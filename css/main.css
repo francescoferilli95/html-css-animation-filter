@@ -55,10 +55,30 @@
 
 /*ESERCIZIO 6*/
 
-.ex-6-img {
-    transition: filter .3s;
-}
-
 .ex-6-img:hover {
     filter: grayscale(1);
+}
+
+/*ESERCIZIO 7*/
+
+.ex-7-img {
+    transition: filter 1.5s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1)
+            brightness(1.2);
+}
+
+/*ESERCIZIO 8*/
+
+.ex-8-img {
+    transition: filter 1.5s,
+                border-radius 1.5s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(.8)
+            brightness(.8);
+    border-radius: 30px;        
 }
