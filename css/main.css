@@ -1,0 +1,20 @@
+/*ESERCIZIO 1*/
+
+.ex-1-square {
+    transition: background 3s;
+}
+
+
+.ex-1-square:hover {
+    background: red;
+}
+
+/*ESERCIZIO 2*/
+
+.ex-2-square {
+    transition: width 3s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
