@@ -125,7 +125,7 @@
     90% {
         transform:rotate(310deg);
     }
-    100%{
+    100% {
         transform:rotate(0deg);
     }
 }
@@ -133,10 +133,10 @@
 /*ESERCIZIO 12*/
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: right 1.5s linear;
+    animation: right1 1.5s linear;
 }
 
-@keyframes right {
+@keyframes right1 {
     0% {
         left: 10%;
     }
@@ -149,10 +149,10 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: left 1.5s linear;
+    animation: left1 1.5s linear;
 }
 
-@keyframes left {
+@keyframes left1 {
     0% {
         right: 20%;
     }
@@ -161,5 +161,69 @@
     }
     100% {
         right: 20%;
+    }
+}
+
+/*ESERCIZIO 13*/
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: right2 3s linear;
+}
+
+@keyframes right2 {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left:calc(100% - 40px);
+        top: -10px;
+    }
+    50% {
+        left:calc(100% - 40px);
+        top: 100%;
+    }
+    70% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: left2 3s linear;
+}
+
+@keyframes left2 {
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+    25% {
+        right:calc(100% - 40px);
+        bottom: -10px;
+    }
+    50% {
+        right:calc(100% - 40px);
+        bottom: 100%;
+    }
+    70% {
+        right: 0;
+        bottom: 100%;
+    }
+    90% {
+        right: -15px;
+        bottom: -10px;
+    }
+    100% {
+        right: 20%;
+        bottom: -10px;
     }
 }
