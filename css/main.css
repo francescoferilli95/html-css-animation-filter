@@ -111,3 +111,55 @@
         transform:rotate(360deg);
     }
 }
+
+/*ESERCIZIO 11*/
+
+.ex-11-icon:hover {
+    animation: back 2s linear;
+}
+
+@keyframes back {
+    0% {
+        transform:rotate(0deg);
+    }
+    90% {
+        transform:rotate(310deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
+
+/*ESERCIZIO 12*/
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: right 1.5s linear;
+}
+
+@keyframes right {
+    0% {
+        left: 10%;
+    }
+    50%{
+        left:calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: left 1.5s linear;
+}
+
+@keyframes left {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right:calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+}
